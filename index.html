@@ -11,17 +11,32 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
-        <!--[if (gte mso 9)|(IE)]>
-        <style type="text/css">
-            table {border-collapse: collapse;}
-        </style>
-        <![endif]-->
+        
         <style type="text/css">
             html { -webkit-text-size-adjust:none; -ms-text-size-adjust: none;}
+            @media(max-width:592px) {
+                .content {
+                    max-width: 100% !important;
+                }
+                .content img{
+                    width: 100% !important;
+                }
+                .content a{
+                    width: 100% !important;
+                }
+                .column {
+                    max-width: 100% !important;
+                }
+            }
             @media(max-width:414px) {
-                /* .link {
+                .link {
                     display: none;
-                } */
+                }
+                .logo {
+                    width: 126px !important;
+                    min-width: 126px !important;
+                    height: 24px !important;
+                }
                 .plane {
                     display: none;
                 }
@@ -37,20 +52,7 @@
                     width: 24px !important;
                 }
             }
-            @media(max-width:592px) {
-                .content {
-                    max-width: 100% !important;
-                    /* margin-bottom: 40px; */
-                }
-                .content img{
-                    width: 100% !important;
-                }
-                .content a{
-                    width: 100% !important;
-                }
-            }
         </style>
-        
     </head>
         <body style="Margin: 0px;padding:0px">
             <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0;background-color:#d4d4d4;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif;border: none;">
@@ -58,8 +60,8 @@
                     <td align="center">
                         <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="background-color:#ffffff;color:#000;max-width:600px;min-width:300px;width:100%"> 
                             <tr>
+                                 <!-- header -->
                                 <td style="Margin: 0;padding-top: 20px;padding-right: 0px;padding-bottom: 20px;padding-right: 0px;">
-                                    <!-- header -->
                                     <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff"> 
                                         <tr>
                                             <td style="width: 16px;"></td>
@@ -70,21 +72,23 @@
                                                             <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
                                                                 <tr>
                                                                     <td>
-                                                                        <a style="text-decoration: none;" href="#">
-                                                                            <img src="https://littldude.github.io/kupibilet-test/img/Logo.png" alt="Купибилет" height="32" border="0" style="display: block;width: 100%;max-width: 165px;min-width:126px;border: 0;">
+                                                                        <a style="text-decoration: none;" href="#" target="_blank">
+                                                                            <img class="logo" src="https://littldude.github.io/kupibilet-test/img/Logo.png" alt="Купибилет" width="165" height="32" border="0" style="display: block;width: 100%;max-width: 165px;min-width: 165px;border: 0;">
                                                                         </a>
                                                                     </td>
                                                                 </tr>
                                                             </table>
                                                         </td>
                                                         <td>
-                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
-                                                                <tr>
-                                                                    <td align="right">
-                                                                        <a class="link" href="#" target="_blank" style="font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 14px;line-height: 20px; color:#101014;text-decoration:underline;">Открыть письмо в браузере</a>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
+                                                            <div>
+                                                                <table width="100%" align="right" border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td align="right">
+                                                                            <a class="link" href="#" target="_blank" style="font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 14px;line-height: 20px; color:#101014;text-decoration:underline;">Открыть письмо в браузере</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </div>
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -95,44 +99,12 @@
                                 </td>
                             </tr>
                             <tr>
+                                <!-- bonus -->
                                 <td style="Margin: 0;padding-top: 24px;padding-right: 0px;padding-bottom: 24px;padding-right: 0px;background-color:#FAFAFB;">
-                                    <!-- bonus -->
                                     <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#FAFAFB"> 
                                         <tr>
                                             <td class="width-16" style="width: 16px;"></td>
                                             <td>
-                                                
-                                                <!-- <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#FAFAFB">
-                                                    <tr>
-                                                        <td class="plane" style="padding-right: 16px;">
-                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
-                                                                <tr>
-                                                                    <td>
-                                                                        <img src="https://littldude.github.io/kupibilet-test/img/plane.png" alt="Самолет" border="0" style="display: block;width: 24px;height: 24px;border: 0;">
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                        <td>
-                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
-                                                                <tr>
-                                                                    <td align="left" style="Margin:0;padding-right:16px;padding-top:0px;padding-bottom:0px;">
-                                                                        <p style="font-size: 14px;line-height: 20px; color:#51525A;">Екатерина, всем новичкам на борту мы дарим 1&nbsp;000&nbsp;бонусов на любой перелёт. Осталось только забрать</p>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                        <td valign="bottom">
-                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
-                                                                <tr>
-                                                                    <td>
-                                                                        <a href="#" target="_blank" style="font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 14px;line-height: 20px; color:#101014;text-decoration:underline;">Забрать</a>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table> -->
                                                 <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#FAFAFB">
                                                     <tr>
                                                         <td>
@@ -152,7 +124,7 @@
                                                                             <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
                                                                                 <tr>
                                                                                     <td align="left" style="Margin:0;padding-right:16px;padding-top:0px;padding-bottom:0px;max-width: 420px;">
-                                                                                        <p style="font-size: 14px;line-height: 20px; color:#51525A;">Екатерина, всем новичкам на борту мы дарим 1&nbsp;000&nbsp;бонусов на любой перелёт. Осталось только забрать</p>
+                                                                                        <p style="font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif;font-size: 14px;line-height: 20px; color:#51525A;Margin:0;">Екатерина, всем новичкам на борту мы дарим 1&nbsp;000&nbsp;бонусов на любой перелёт. Осталось только забрать</p>
                                                                                     </td>
                                                                                 </tr>
                                                                             </table>
@@ -177,37 +149,34 @@
                                                                 </table>
                                                             </div>
                                                         </td>
-                                                        
-                                                        
                                                     </tr>
                                                 </table>
                                             </td>
-                                            
                                             <td style="width: 16px;"></td>
                                         </tr>
                                     </table>
                                 </td>
                             </tr>
                             <tr>
+                                <!-- promo -->
                                 <td style="Margin: 0;padding-top: 24px;padding-right: 0px;padding-bottom: 24px;padding-right: 0px;background-color:#ffffff;">
-                                    <!-- promo -->
                                     <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff"> 
                                         <tr>
                                             <td style="width: 24px;"></td>
                                             <td>
-                                                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#31767D" style="background-image: url('https://littldude.github.io/kupibilet-test/img/bg.png');border-radius: 16px;background-size:cover;"> 
+                                                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#31767D" style="background-image: url('img/bg.jpg');border-radius: 16px;background-size:cover;"> 
                                                     <tr>
                                                         <td style="width: 24px;"></td>
                                                         <td style="Margin: 0;padding-top: 68px;padding-right: 0px;padding-bottom: 68px;padding-left: 0px;">
                                                             <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
                                                                 <tr>
-                                                                    <td>
+                                                                    <td color="#ffffff" style="color: #ffffff;">
                                                                         <h1 color="#ffffff" class="h-24" style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 24px;line-height: 32px; color:#ffffff;font-weight: 600;">Бешенная распродажа билетов<br> в белую субботу</h1>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td style="padding-top: 8px;padding-left: 0;padding-right: 0;padding-bottom: 0;">
-                                                                        <p color="#ffffff" style="font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 14px;line-height: 20px; color:#ffffff;font-weight: 400;padding-right: 20px;display: block;max-width: 280px;">Описание акции и сроки её проведения или какая-то другая информация</p>
+                                                                    <td color="#ffffff" style="padding-top: 8px;padding-left: 0;padding-right: 0;padding-bottom: 0; color: #ffffff;">
+                                                                        <p color="#ffffff" style="font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 14px;line-height: 20px; color:#ffffff;font-weight: 400;padding-right: 20px;display: block;max-width: 280px;Margin:0;">Описание акции и сроки её проведения или какая-то другая информация</p>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -256,16 +225,16 @@
                                     <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
                                         <tr>
                                             <td style="width: 24px;"></td>
-                                            <td style="padding-top: 16px;padding-left: 0;padding-right: 0;padding-bottom: 16px;">
+                                            <td style="padding-left: 0;padding-right: 0;padding-bottom: 24px;">
                                                 <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
                                                     <tr>
                                                         <td>
-                                                            <p class="p-16" style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 16px;line-height: 24px; color:#51525A;font-weight: 400;">Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок и отчётов — для всех, кто относится к тексту, как к количеству знаков.</p>
+                                                            <p class="p-16" style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 16px;line-height: 24px; color:#51525A;font-weight: 400;Margin:0;">Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок и отчётов — для всех, кто относится к тексту, как к количеству знаков.</p>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td style="padding-top: 20px;">
-                                                            <p class="p-16" style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 16px;line-height: 24px; color:#51525A;font-weight: 400;">Нажав на кнопку «Написать реферат», вы лично создаёте уникальный текст, причём именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким образом, авторские права на реферат принадлежат только вам.</p>
+                                                            <p class="p-16" style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 16px;line-height: 24px; color:#51525A;font-weight: 400;Margin:0;">Нажав на кнопку «Написать реферат», вы лично создаёте уникальный текст, причём именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким образом, авторские права на реферат принадлежат только вам.</p>
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -281,21 +250,21 @@
                                         <tr>
                                             <td style="width: 24px;"></td>
                                             <td>
-                                                <div class="content" style="display:inline-block;max-width: 268px;width: 100%;padding-bottom: 32px;">
-                                                    <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+                                                <div class="content" style="display:inline-block;max-width: 268px;width: 100%;padding-bottom: 32px; vertical-align: top;">
+                                                    <table width="100%"  border="0" cellpadding="0" cellspacing="0" style="float: left;">
                                                         <tr>
                                                             <td>
-                                                                <img src="https://littldude.github.io/kupibilet-test/img/img-1.png" border="0" alt="Париж" style="display: block;border: 0;">
+                                                                <img width="268" src="img/img-1.jpg" border="0" alt="Париж" style="display: block;border: 0;border-radius: 8px;min-width: 268px;">
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td style="padding-top: 16px;">
-                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 20px;line-height: 26px; color:#101014;font-weight: 600;">Название маршрута</p>
+                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 20px;line-height: 26px; color:#101014;font-weight: 600;Margin:0;">Название маршрута</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td style="padding-top: 8px;"> 
-                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;">Длинное описание, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
+                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;Margin:0;">Длинное описание, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -305,21 +274,21 @@
                                                         </tr>
                                                     </table>
                                                 </div>
-                                                <div class="content" style="display:inline-block;max-width: 268px;width: 100%;padding-bottom: 32px;">
+                                                <div class="content" style="display:inline-block;max-width: 268px;width: 100%;padding-bottom: 32px;vertical-align: top;">
                                                     <table width="100%" border="0" cellpadding="0" cellspacing="0">
                                                         <tr>
                                                             <td>
-                                                                <img src="https://littldude.github.io/kupibilet-test/img/img-2.png" alt="Москва" style="display: block;border: 0;">
+                                                                <img width="268" src="img/img-2.jpg" border="0" alt="Москва" style="display: block;border: 0;border-radius: 8px;min-width: 268px;">
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td style="padding-top: 16px;">
-                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 20px;line-height: 26px; color:#101014;font-weight: 600;">Название маршрута</p>
+                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 20px;line-height: 26px; color:#101014;font-weight: 600;Margin:0;">Название маршрута</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td style="padding-top: 8px;"> 
-                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;">Длинное описание, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
+                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;Margin:0;">Длинное описание, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -345,17 +314,17 @@
                                                     <table width="100%"  border="0" cellpadding="0" cellspacing="0">
                                                         <tr>
                                                             <td>
-                                                                <img src="img/img-3.jpg" border="0" alt="Лос-Анджелес" style="display: block;border: 0;">
+                                                                <img width="268" src="img/img-3.jpg" border="0" alt="Лос-Анджелес" style="display: block;border: 0;border-radius: 8px;min-width: 268px;">
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td style="padding-top: 16px;">
-                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 20px;line-height: 26px; color:#101014;font-weight: 600;">Название маршрута</p>
+                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 20px;line-height: 26px; color:#101014;font-weight: 600;Margin:0;">Название маршрута</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td style="padding-top: 8px;"> 
-                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;">Длинное описание, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
+                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;Margin:0;">Длинное описание, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -369,17 +338,17 @@
                                                     <table width="100%" border="0" cellpadding="0" cellspacing="0">
                                                         <tr>
                                                             <td>
-                                                                <img src="img/img-4.jpg" alt="Стамбул" style="display: block;border: 0;">
+                                                                <img width="268" src="img/img-4.jpg" border="0" alt="Стамбул" style="display: block;border: 0;border-radius: 8px;min-width: 268px;">
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td style="padding-top: 16px;">
-                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 20px;line-height: 26px; color:#101014;font-weight: 600;">Название маршрута</p>
+                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 20px;line-height: 26px; color:#101014;font-weight: 600;Margin:0;">Название маршрута</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td style="padding-top: 8px;"> 
-                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;">Длинное описание, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
+                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;Margin:0;">Длинное описание, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -416,79 +385,78 @@
                             </tr>
                             <tr>
                                 <td>
-                                    
-                                    <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="padding-top: 24px;padding-bottom: 24px;">
+                                    <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="padding-top: 24px;padding-bottom: 8px;">
                                         <tr>
                                             <td style="width: 24px;"></td>
                                             <td align="center">
-                                                <div style="display:inline-block;max-width: 268px;width: 100%;">
+                                                <div class="column" style="display:inline-block;max-width: 268px;width: 100%;">
                                                     <table width="100%"  border="0" cellpadding="0" cellspacing="0" align="center" style="float:left;">
                                                         <tr>
                                                             <td valign="top" style="padding-right: 12px;">
-                                                                <img width="24" height="24" border="0" src="img/list-5.png" alt="" style="display: block;width: 24px;height: 24px;">
+                                                                <img width="24" height="24" border="0" src="https://littldude.github.io/kupibilet-test/img/list-1.png" alt="." style="display: block;width: 24px;height: 24px;">
                                                             </td>
                                                             <td style="padding-bottom: 16px;">
-                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;">Длинный заголовок, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
+                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;Margin:0;">Длинный заголовок, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td valign="top" style="padding-right: 12px;">
-                                                                <img width="24" height="24" border="0" src="img/list-6.png" alt="" style="display: block;width: 24px;height: 24px;">
+                                                                <img width="24" height="24" border="0" src="https://littldude.github.io/kupibilet-test/img/list-2.png" alt="." style="display: block;width: 24px;height: 24px;">
                                                             </td>
                                                             <td style="padding-bottom: 16px;">
-                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;">Длинный заголовок, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
+                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;Margin:0;">Длинный заголовок, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td valign="top" style="padding-right: 12px;">
-                                                                <img width="24" height="24" border="0" src="img/list-7.png" alt="" style="display: block;width: 24px;height: 24px;">
+                                                                <img width="24" height="24" border="0" src="https://littldude.github.io/kupibilet-test/img/list-3.png" alt="." style="display: block;width: 24px;height: 24px;">
                                                             </td>
                                                             <td style="padding-bottom: 16px;">
-                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;">Длинный заголовок, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
+                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;Margin:0;">Длинный заголовок, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td valign="top" style="padding-right: 12px;">
-                                                                <img width="24" height="24" border="0" src="img/list-8.png" alt="" style="display: block;width: 24px;height: 24px;">
+                                                                <img width="24" height="24" border="0" src="https://littldude.github.io/kupibilet-test/img/list-4.png" alt="." style="display: block;width: 24px;height: 24px;">
                                                             </td>
                                                             <td>
-                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;">Длинный заголовок, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
+                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;padding-bottom: 16px;Margin:0;">Длинный заголовок, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
                                                             </td>
                                                         </tr>
                                                     </table>
                                                 </div>
-                                                <div style="display:inline-block;max-width: 268px;width: 100%;">
+                                                <div class="column" style="display:inline-block;max-width: 268px;width: 100%;">
                                                     <table width="100%"  border="0" cellpadding="0" cellspacing="0" align="center" style="float: right;">
                                                         <tr>
                                                             <td valign="top" style="padding-right: 12px;">
-                                                                <img width="24" height="24" border="0" src="img/list-5.png" alt="" style="display: block;width: 24px;height: 24px;">
+                                                                <img width="24" height="24" border="0" src="https://littldude.github.io/kupibilet-test/img/list-5.png" alt="." style="display: block;width: 24px;height: 24px;">
                                                             </td>
                                                             <td style="padding-bottom: 16px;">
-                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;">Длинный заголовок, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
+                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;Margin:0;">Длинный заголовок, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td valign="top" style="padding-right: 12px;">
-                                                                <img width="24" height="24" border="0" src="img/list-6.png" alt="" style="display: block;width: 24px;height: 24px;">
+                                                                <img width="24" height="24" border="0" src="https://littldude.github.io/kupibilet-test/img/list-6.png" alt="." style="display: block;width: 24px;height: 24px;">
                                                             </td>
                                                             <td style="padding-bottom: 16px;">
-                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;">Длинный заголовок, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
+                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;Margin:0;">Длинный заголовок, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td valign="top" style="padding-right: 12px;">
-                                                                <img width="24" height="24" border="0" src="img/list-7.png" alt="" style="display: block;width: 24px;height: 24px;">
+                                                                <img width="24" height="24" border="0" src="https://littldude.github.io/kupibilet-test/img/list-7.png" alt="." style="display: block;width: 24px;height: 24px;">
                                                             </td>
                                                             <td style="padding-bottom: 16px;">
-                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;">Длинный заголовок, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
+                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;Margin:0;">Длинный заголовок, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td valign="top" style="padding-right: 12px;">
-                                                                <img width="24" height="24" border="0" src="img/list-8.png" alt="" style="display: block;width: 24px;height: 24px;">
+                                                                <img width="24" height="24" border="0" src="https://littldude.github.io/kupibilet-test/img/list-8.png" alt. style="display: block;width: 24px;height: 24px;">
                                                             </td>
                                                             <td>
-                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;">Длинный заголовок, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
+                                                                <p style="Margin:0;font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif; font-size: 12px;line-height: 16px; color:#51525A;font-weight: 400;padding-bottom: 16px;Margin:0;">Длинный заголовок, чтобы посмотреть как будет выглядеть в две строки, а может даже и в три не дай бог</p>
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -500,16 +468,17 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>
+                                <!-- footer -->
+                                <td bgcolor="#212126">
                                     <table width="100%"  border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#212126" valign="top" style="padding-top: 24px;padding-bottom: 24px;">
                                         <tr>
                                             <td width="24"></td>
-                                            <td>
-                                                <div style="display: inline-block;padding-bottom: 8px;">
+                                            <td style="line-height: 0px;">
+                                                <div style="display: inline-block;padding-bottom: 8px;vertical-align: text-bottom;">
                                                     <table  width="100%"  border="0" cellpadding="0" cellspacing="0" align="center">
                                                         <tr>
                                                             <td style="padding-right: 24px;vertical-align: middle;">
-                                                                <p color="#ffffff" style="color: #ffffff;font-weight: 400;font-size: 16px;line-height: 24px;">Купибилет для iOS и Android</p>
+                                                                <p color="#ffffff" style="font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif;color: #ffffff;font-weight: 400;font-size: 16px;line-height: 24px;Margin:0;">Купибилет для iOS и Android</p>
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -518,13 +487,13 @@
                                                     <table width="100%"  border="0" cellpadding="0" cellspacing="0" align="center" valign="middle">
                                                         <tr>
                                                             <td style="padding-right: 8px;">
-                                                                <a href="#" width="108" height="32" style="text-decoration: none;">
-                                                                    <img src="img/Download_on_the_App_Store_Badge_RU_135x40.png" alt="" width="108" height="32" border="0" style="display: block;width: 108px;height: 32px;border: 0;">
+                                                                <a href="#" target="_blank" width="108" height="32" style="display:block;text-decoration: none;">
+                                                                    <img src="https://littldude.github.io/kupibilet-test/img/Download_on_the_App_Store_Badge_RU_135x40.png" alt="." width="108" height="32" border="0" style="display: block;width: 108px;height: 32px;border: 0;">
                                                                 </a>
                                                             </td>
                                                             <td>
-                                                                <a href="#" width="108" height="32" style="text-decoration: none;">
-                                                                    <img src="img/google-play-badge.png" alt="" width="108" height="32" border="0" style="display: block;width: 108px;height: 32px;border: 0;">
+                                                                <a href="#" target="_blank" width="108" height="32" style="display:block;text-decoration: none;">
+                                                                    <img src="https://littldude.github.io/kupibilet-test/img/google-play-badge.png" alt="." width="108" height="32" border="0" style="display: block;width: 108px;height: 32px;border: 0;">
                                                                 </a>
                                                             </td>
                                                         </tr>
@@ -539,44 +508,42 @@
                                                 <table width="100%"  border="0" cellpadding="0" cellspacing="0" align="center">
                                                     <tr>
                                                         <td>
-                                                            <p color="#ffffff" style="color: #ffffff;font-weight: 400;font-size: 16px;line-height: 24px;">Оставайтесь на связи с нами</p>
+                                                            <p color="#ffffff" style="font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif;color: #ffffff;font-weight: 400;font-size: 16px;line-height: 24px;Margin:0;">Оставайтесь на связи с нами</p>
                                                         </td>
                                                     </tr>
                                                 </table>
                                                 <table width="auto"  border="0" cellpadding="0" cellspacing="0" style="padding-top: 12px;">
                                                     <tr>
                                                         <td style="padding-right: 8px;">
-                                                            <a href="" width="40" height="40" style="text-decoration: none;">
-                                                                <img src="img/odnoklassniki-ok 4.png" alt="" border="0" width="40" height="40" style="display: block;width: 40px;height: 40px;border: 0;">
+                                                            <a href="#" target="_blank" width="40" height="40" style="display:block;text-decoration: none;">
+                                                                <img src="https://littldude.github.io/kupibilet-test/img/odnoklassniki-ok 4.png" alt="." border="0" width="40" height="40" style="display: block;width: 40px;height: 40px;border: 0;">
                                                             </a>
                                                         </td>
                                                         <td style="padding-right: 8px;">
-                                                            <a href="" width="40" height="40" style="text-decoration: none;">
-                                                                <img src="img/1_stroka 1 1.png" alt="" border="0" width="40" height="40" style="display: block;width: 40px;height: 40px;border: 0;">
+                                                            <a href="#" target="_blank" width="40" height="40" style="display:block;text-decoration: none;">
+                                                                <img src="https://littldude.github.io/kupibilet-test/img/1_stroka 1 1.png" alt="." border="0" width="40" height="40" style="display: block;width: 40px;height: 40px;border: 0;">
                                                             </a>
                                                         </td>
                                                         <td style="padding-right: 8px;">
-                                                            <a href="" width="40" height="40" style="text-decoration: none;">
-                                                                <img src="img/odnoklassniki-ok 1.png" alt="" border="0" width="40" height="40" style="display: block;width: 40px;height: 40px;border: 0;">
+                                                            <a href="#" target="_blank" width="40" height="40" style="display:block;text-decoration: none;">
+                                                                <img src="https://littldude.github.io/kupibilet-test/img/odnoklassniki-ok 1.png" alt="." border="0" width="40" height="40" style="display: block;width: 40px;height: 40px;border: 0;">
                                                             </a>
                                                         </td>
                                                         <td style="padding-right: 8px;">
-                                                            <a href="" width="40" height="40" style="text-decoration: none;">
-                                                                <img src="img/odnoklassniki-ok 2.png" alt="" border="0" width="40" height="40" style="display: block;width: 40px;height: 40px;border: 0;">
+                                                            <a href="#" target="_blank" width="40" height="40" style="display:block;text-decoration: none;">
+                                                                <img src="https://littldude.github.io/kupibilet-test/img/odnoklassniki-ok 2.png" alt="." border="0" width="40" height="40" style="display: block;width: 40px;height: 40px;border: 0;">
                                                             </a>
                                                         </td>
                                                         <td style="padding-right: 8px;">
-                                                            <a href="" width="40" height="40" style="text-decoration: none;">
-                                                                <img src="img/odnoklassniki-ok 3.png" alt="" border="0" width="40" height="40" style="display: block;width: 40px;height: 40px;border: 0;">
+                                                            <a href="#" target="_blank" width="40" height="40" style="display:block;text-decoration: none;">
+                                                                <img src="https://littldude.github.io/kupibilet-test/img/odnoklassniki-ok 3.png" alt="." border="0" width="40" height="40" style="display: block;width: 40px;height: 40px;border: 0;">
                                                             </a>
                                                         </td>
                                                         <td>
-                                                            <a href="" width="40" height="40" style="text-decoration: none;">
-                                                                <img src="img/odnoklassniki-ok 5.png" alt="" border="0" width="40" height="40" style="display: block;width: 40px;height: 40px;border: 0;">
+                                                            <a href="#" target="_blank" width="40" height="40" style="display:block;text-decoration: none;">
+                                                                <img src="https://littldude.github.io/kupibilet-test/img/odnoklassniki-ok 5.png" alt="." border="0" width="40" height="40" style="display: block;width: 40px;height: 40px;border: 0;">
                                                             </a>
                                                         </td>
-                                                        
-                                                        
                                                     </tr>
                                                 </table>
                                             </td>
@@ -588,7 +555,7 @@
                                                 <table width="100%"  border="0" cellpadding="0" cellspacing="0" align="center">
                                                     <tr>
                                                         <td>
-                                                            <p color="#ffffff" style="color:#ffffff;font-weight: 400;font-size: 10px;line-height: 16px;">Вы получили это письмо, так как ваш почтовый адрес был использован для подпискина рассылку на сайте samokat.ru. Не хотите читать письма? — <a href="#" style="text-decoration: underline;color:#ffffff;font-weight: 400;font-size: 10px;line-height: 16px;">Отпишитесь от рассылки.</a></p>
+                                                            <p color="#ffffff" style="font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif;color:#ffffff;font-weight: 400;font-size: 10px;line-height: 16px;Margin:0;">Вы получили это письмо, так как ваш почтовый адрес был использован для подпискина рассылку на сайте <span style="font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif;color:#ffffff;font-weight: 400;font-size: 10px;line-height: 16px;Margin:0;">samokat.ru.</span> Не хотите читать письма? — <a href="#" style="font-family: 'Roboto','Segoe UI','Helvetica Neue','Helvetica','Arial',sans-serif;text-decoration: underline;color:#ffffff;font-weight: 400;font-size: 10px;line-height: 16px;">Отпишитесь от рассылки.</a></p>
                                                         </td>
                                                     </tr>
                                                 </table>
